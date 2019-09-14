@@ -1,15 +1,8 @@
 import React from 'react';
-import Hello from './Hello';
-import Wrapper from './Wrapper';
-import './App.css';
+import Counter from './Counter';
 
 function App() {
-	return (
-		<Wrapper>
-			<Hello name="묵이당" color="red" isStar />
-			<Hello color="purple" />
-		</Wrapper>
-	);
+	return <Counter></Counter>;
 }
 
 export default App;
